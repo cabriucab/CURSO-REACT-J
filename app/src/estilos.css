@@ -1,5 +1,5 @@
 #root{
-
+flex-grow: 1;
     padding-left: 1rem;
 
 }
@@ -26,5 +26,6 @@ background-color: aqua;
 a{
 
     padding-left: 3rem;
+    
 }
 

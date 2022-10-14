@@ -8,9 +8,11 @@ function App(){
 return (
     
 
-
  <>
- <Header/>
+ <Header 
+ nombre="Martin" 
+ apellido="Cabrera"
+ />
 <Main/>
 <Footer/>
 

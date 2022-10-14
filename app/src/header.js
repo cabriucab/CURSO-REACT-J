@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header(){
+function Header(prop){
 
 return(
 <>
@@ -9,6 +9,7 @@ return(
 <header className="encabezado">
 
 <h1 id="logo">LOGO</h1>
+<p>Bienvenido {prop.nombre+ " "+ prop.apellido}</p>
 <nav id="menu">
 
 <a  href="#">link</a>
