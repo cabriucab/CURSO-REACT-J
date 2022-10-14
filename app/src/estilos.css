@@ -1,0 +1,30 @@
+#root{
+
+    padding-left: 1rem;
+
+}
+
+.encabezado{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+#logo{
+background-color: aqua;
+
+}
+#menu{
+       display: flex;
+        flex-direction: row;
+     align-content: center;
+
+}
+a{
+
+    padding-left: 3rem;
+}
+
